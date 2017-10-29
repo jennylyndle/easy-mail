@@ -1,1 +1,1 @@
-export {myEmail} from './email';
+export {easyEmail} from './email';

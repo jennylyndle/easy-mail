@@ -1,5 +1,5 @@
 import * as request from 'request';
-export namespace myEmail{
+export namespace easyEmail{
     export class email{
         constructor(public user_id:string, server?, secure?){
             this.server = this.server || server;

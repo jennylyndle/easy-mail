@@ -1,10 +1,7 @@
-import {myEmail} from './email';
+import {easyEmail} from './email';
 
-let em = new myEmail.email("user_nKlkPH84fcI41ygq33HkZ");
-let uid = 'user_nKlkPH84fcI41ygq33HkZ';
-let obj = {from_name:'jen',from_email:'njfnrnj',from_msg:'jbchrbf'};
-let obj2 =  {"from_name":"jen","from_email":"njfnrnj","from_msg":"jbchrbf"};
-console.log(JSON.stringify(obj));
-console.log(obj2);
+let em = new easyEmail.email("user_nKlkPH84fcI41ygq33HkZ");
+let uid = 'your user id';
+let obj = {from_name:'name',from_email:'email_id_to_return',from_msg:'message'};
 em.send("gmail", "contactstemplate",obj, uid).
 then((response)=>{console.log(`success`);},(err)=>{console.log(err);});;
