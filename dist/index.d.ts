@@ -1,1 +1,0 @@
-export { myEmail } from './email';
