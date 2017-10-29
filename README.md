@@ -6,10 +6,15 @@
   npm install easy-mail
  
  Then in your typescript project:
+ 
+ 
   import {easyEmail} from 'directory'
-  let em = new easyEmail.email()
-  let obj = {from_name:'jen',from_email:'njfnrnj',from_msg:'jbchrbf'};
-  em.send("email service name", "template name",obj, your user id) will return a promise which can be used to add callbacks for success and failure
+ 
+ let em = new easyEmail.email()
+ 
+ let obj = {from_name:'jen',from_email:'njfnrnj',from_msg:'jbchrbf'};
+ 
+ em.send("email service name", "template name",obj, your user id) 
   
   please take a look at the test file for an example.
 
