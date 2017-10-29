@@ -1,0 +1,16 @@
+{
+  "name": "easy-mail",
+  "version": "1.0.0",
+  "description": "can send email with pre defined template",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jenny",
+  "license": "ISC",
+  "dependencies": {
+    "@types/request": "^2.0.7",
+    "request": "^2.83.0"
+  }
+}
