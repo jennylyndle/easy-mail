@@ -3,10 +3,10 @@
  Follow the docs to connect your email services and create the desired email templates.
  
  This simple npm package provides the type definitions to access the library.
-  npm install easy-mail
+  
+ npm install easy-mail
  
- Then in your typescript project:
- 
+Then in your typescript project:
  
   import {easyEmail} from 'directory'
  
@@ -16,5 +16,3 @@
  
  em.send("email service name", "template name",obj, your user id) 
   
-  please take a look at the test file for an example.
-
